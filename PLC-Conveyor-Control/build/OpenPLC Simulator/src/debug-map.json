@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "md5": "6b2f33df3575b5fa9b5903c586b168c4",
+  "typeTags": {
+    "BOOL": 0,
+    "SINT": 1,
+    "USINT": 2,
+    "INT": 3,
+    "UINT": 4,
+    "DINT": 5,
+    "UDINT": 6,
+    "LINT": 7,
+    "ULINT": 8,
+    "REAL": 9,
+    "LREAL": 10,
+    "BYTE": 11,
+    "WORD": 12,
+    "DWORD": 13,
+    "LWORD": 14,
+    "TIME": 15,
+    "DATE": 16,
+    "TOD": 17,
+    "DT": 18,
+    "STRING": 19,
+    "WSTRING": 20
+  },
+  "arrays": [
+    {
+      "index": 0,
+      "count": 10
+    }
+  ],
+  "leaves": [
+    {
+      "arrayIdx": 0,
+      "elemIdx": 0,
+      "path": "INSTANCE0.START_PB",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 1,
+      "path": "INSTANCE0.STOP_PB",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 2,
+      "path": "INSTANCE0.SENSOR_1",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 3,
+      "path": "INSTANCE0.SENSOR_2",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 4,
+      "path": "INSTANCE0.CONVEYOR",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 5,
+      "path": "INSTANCE0.RUNNING_LAMP",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 6,
+      "path": "INSTANCE0.TIMER_1.IN",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 7,
+      "path": "INSTANCE0.TIMER_1.PT",
+      "type": "TIME",
+      "size": 8
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 8,
+      "path": "INSTANCE0.TIMER_1.Q",
+      "type": "BOOL",
+      "size": 1
+    },
+    {
+      "arrayIdx": 0,
+      "elemIdx": 9,
+      "path": "INSTANCE0.TIMER_1.ET",
+      "type": "TIME",
+      "size": 8
+    }
+  ]
+}
